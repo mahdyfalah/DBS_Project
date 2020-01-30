@@ -1,0 +1,63 @@
+h1 {
+    color: #003300;
+    margin-left: 10px;
+    font-family: Verdana;
+}
+
+a {
+    font-family:Verdana;
+    font-size: large;
+}
+
+input[type=text] {
+    /*width: 20%;*/
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    background: #4CAF50;
+    font-size: 19px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    margin: 8px 0;
+    color: whitesmoke;
+    padding: 14px 20px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div, p {
+    font-size: 22px;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+    height: 50px;
+    color: black;
+}
+
+th {
+    background-color: #4CAF50;
+    font-size: large;
+    color: whitesmoke;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
